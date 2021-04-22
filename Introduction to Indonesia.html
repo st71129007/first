@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/小專題/小專css/slideShow.css">
+  <link rel="stylesheet" href="/小專題/小專css/menu.css">
+  <link rel="stylesheet" href="/小專題/小專css/titlepic.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #h2_1{
+      font-family: 'Sofia';font-size: 22px;
+      position: b;
+    }
+    footer {
+      background-color: dimgray;
+    }
+
+    body {
+      background-color: rgb(131, 187, 209);
+
+    }
+
+    .PicContent {
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      visibility: visible;
+      color: #2e2b2b;
+      display: inline-block;
+      padding: 20px;
+      position: left 50%
+    }
+
+    .lev1 {
+      display: block;
+      margin: auto;
+      opacity: 1;
+      size: 50%;
+    }
+
+    #vvd1 {
+      display: block;
+      margin: auto;
+      opacity: 0.5;
+      z-index: -100;
+      width: 100%;
+
+    }
+
+    .imgbox {
+      position: absolute;
+      display: block;
+      margin: auto;
+      left: 15%;
+
+    }
+
+    #indmag {
+      size: 50%;
+    }
+
+    #igbox{
+      display: inline;
+      position: absolute;
+      width: 500px;
+      left: 17%;
+      bottom: -320%;
+    }
+    #ig {
+      position: absolute;
+      bottom: -315%;
+      size: 100%;
+      left: 22%;
+      border: 6px solid orange;
+      padding: 6px;
+    }
+
+    #igtitle {
+      position: absolute;
+      bottom: -220%;
+      left: 43%;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  <!-- start -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px;text-align:center;font-style: italic;">印尼旅遊指南</h1>
+      <p style="font-style: italic;">奇妙的東南亞之旅</p>
+
+    </div>
+  </div>
+  <!-- control -->
+  <div class="navbar">
+    <a class="active" href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/Introduction%20to%20Indonesia.html">首頁</a>
+    <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/trava.html">旅遊景點</a>
+    <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/Itinerary%20planning.html">地圖查詢</a>
+    <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/joinus.html">聯絡我們</a>
+  </div>
+  <!-- introduction + video -->
+  <h2 id="h2_1">~~必去旅遊景點~~</h2>
+  <div class="lev1">
+
+    <video loop="true" autoplay="autoplay" muted="true" id="vvd1">
+      <source src="/小專題/小專題圖片/小專首頁影3 (online-video-cutter.com).mp4" type="video/ogg" />
+    </video>
+
+    <div class=" PicContent" style="width: 1500px; height: 300px;">
+      <h1>萬島之國 印尼</h1>
+      <h2>一個在東南亞的大國，全國共17,508個大小島嶼，是全球最大的群島國家。</h2>
+      <h2>秀麗旖旎的海島風光、純淨無瑕的湛藍海灘、豐富多元的動植物種，</h2>
+      <h2>是許多人來印尼旅遊著迷不已的魅力所在。</h2>
+      <h2>想來印尼度過悠閒海島假期？先來看看我們為你推薦的完全攻略</h2>
+      <h2>從觀光景點、道地美食、購物指南，一起為下一趟印尼行做足準備吧！</h2>
+    </div>
+  </div>
+  <br><br><br><br><br>
+  <!-- slide img -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a href=http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/youtube/toyoutube4.html class="title_photo"><img
+          src="/小專題/小專題圖片/景點/candi-borobudur-2.jpg"></a>
+      <div class="text">candi-borobudur 婆羅浮屠寺廟</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/youtube/toyoutube3.html" class="title_photo"><img
+          src="/小專題/小專題圖片/景點/Kelimutu (Flores,NTT).jpg"></a>
+      <div class="text">Kelimutu 恩迪柯利姆途火山湖</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/youtube/toyoutube6.html" class="title_photo"><img
+          src="/小專題/小專題圖片/景點/Pulo Cinta (Gorontalo).PNG"></a>
+      <div class="text">Pulo Cinta (Gorontalo) 哥隆塔洛島-普洛辛塔生態度假酒店</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/youtube/toyoutube1.html" class="title_photo"><img
+          src="/小專題/小專題圖片/景點/Raja-Ampat-Wayag-Diving.jpg"></a>
+      <div class="text">Raja Ampat 四王群島</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/youtube/toyoutube5.html" class="title_photo"><img
+          src="/小專題/小專題圖片/景點/Pulau Komodo (NTT) 1.jpg"></a>
+      <div class="text">Pulau Komodo 科莫多島 </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <a href="http://127.0.0.1:5501/%E5%B0%8F%E5%B0%88%E9%A1%8C/youtube/toyoutube2.html" class="title_photo"><img
+          src="/小專題/小專題圖片/景點/Tanah Lot (Bali).jpg"></a>
+      <div class="text">Tanah Lot (Bali) 峇里島海神廟</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+  <div class="imgbox">
+    <img src="/小專題/小專題圖片/trval圖/中中.png" id="indmag" alt="">
+  </div>
+  <hr style="color: royalblue; size: 1px;">
+
+  <br><br><br><br><br>
+  <h1 id="igtitle" style="font-family:'Courier New', Courier, monospace">Ig裡的印尼美景</h1>
+  <div id="igbox">    
+    <div id="ig">
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-f9f7ab7f-8b7b-4ee2-9acb-166b1a19f3e8"></div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer"> </footer>
+</body>
+
+<footer class="footer"></footer>
+
+</html>

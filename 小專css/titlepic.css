@@ -1,0 +1,40 @@
+.title_photo{
+    width :800px;
+    height: 450px;  
+    display: block;
+    margin:auto;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    
+  }
+  .hero-image {
+    background-image: linear-gradient(rgba(93, 98, 146, 0.5), rgba(122, 118, 118, 0.5)), url(/小專題/小專題圖片/景點/image5.jpg);
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgb(161, 150, 150);
+    text-align: center;
+    cursor: pointer;
+  }
+  .hero-text button:hover {
+    background-color: rgb(245, 237, 237);
+    color: white;
+  }
